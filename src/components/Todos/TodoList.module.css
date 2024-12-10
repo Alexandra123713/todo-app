@@ -1,0 +1,13 @@
+.emptyList {
+  font-size: 1.6rem;
+  color: white;
+  margin: 50px;
+}
+
+.listContainer {
+  margin: 60px;
+}
+
+.text {
+  color: white;
+}
