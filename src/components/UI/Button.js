@@ -1,10 +1,11 @@
-import styles from "./Button.module.css";
+import styles from './Button.module.css';
 
-export const Button = (props) => {
-  const { children, disabled = false } = props;
-  return (
-    <button {...props} className={styles.button} disabled={disabled}>
-      {children}
-    </button>
-  );
+export const Button = ({ children, disabled = false }) => {
+	return (
+		<button
+			className={styles.button}
+			disabled={disabled}>
+			{children}
+		</button>
+	);
 };
