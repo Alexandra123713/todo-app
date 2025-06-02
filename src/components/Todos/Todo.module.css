@@ -31,9 +31,6 @@
   cursor: pointer;
   transform: scale(1.3);
 }
-
-.todoicon: {
-}
 .checkIcon:hover {
   color: green;
 }
