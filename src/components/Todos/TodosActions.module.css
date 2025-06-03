@@ -4,3 +4,22 @@
   gap: 50px;
   margin: 20px auto;
 }
+
+.delete_button {
+  background-color: white;
+  cursor: pointer;
+  padding: 16px 30px;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-size: 1.2rem;
+}
+
+.delete_button:disabled:hover {
+  background-color: rgba(236, 236, 236, 0.988);
+  color: gray;
+}
+
+.delete_button:hover {
+  background-color: rgba(226, 56, 56, 0.988);
+  color: white;
+}

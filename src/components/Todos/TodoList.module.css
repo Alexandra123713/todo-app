@@ -1,6 +1,6 @@
 .emptyList {
   font-size: 1.6rem;
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 50px;
 }
 
@@ -9,5 +9,5 @@
 }
 
 .text {
-  color: white;
+  color: rgb(0, 0, 0);
 }

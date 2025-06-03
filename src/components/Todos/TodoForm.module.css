@@ -7,16 +7,7 @@
 .input {
   padding: 10px;
   font-size: 1.2rem;
-}
-
-.button {
-  background-color: white;
-  cursor: pointer;
-  padding: 16px 30px;
-  border-radius: 20px;
-  font-size: 1.2rem;
-}
-.button:hover {
-  background-color: gray;
-  color: white;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid black;
 }
